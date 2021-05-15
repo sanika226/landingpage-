@@ -1,0 +1,85 @@
+.travel{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+}
+.travel header{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.travel .text{
+ position: relative;   
+}
+.travel video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text h2{
+    font: bold;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: initial;
+}
+.text a{
+    text-decoration: none;
+    font-size:large;
+    padding: 10px 40px;
+    background-color: rgb(204, 49, 96);
+    color: black;
+    transition: 1sec;
+}
+.text a:hover{
+    letter-spacing: 5px;
+}
+.social{
+    display: flex;
+    position: absolute;
+    left:80px;
+    bottom: 200px;
+    z-index: 100;
+    justify-content: space-evenly;
+    
+}
+.social li{
+    list-style: none;
+    margin-right: 50px;
+}
+.social li i{
+    transition: 1sec;
+    transform: scale(1sec);
+}
+.social li i:hover{
+    cursor: pointer;
+    transform: scale(0.6) translateY(20px);
+}
+ .menu{
+    position: absolute;
+    top:0;
+    right: 50px;
+    z-index: -2;
+    text-decoration: none;
+    list-style: none;
+} 
+ 
