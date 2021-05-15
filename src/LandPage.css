@@ -9,6 +9,7 @@
 
 
 }
+
 .travel header{
     position: absolute;
     left: 0;
@@ -77,9 +78,10 @@
  .menu{
     position: absolute;
     top:0;
-    right: 50px;
-    z-index: -2;
+    right: 100px;
+    z-index: 100;
     text-decoration: none;
     list-style: none;
+
 } 
  

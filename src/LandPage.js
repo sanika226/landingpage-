@@ -4,7 +4,7 @@ import mountain from './video/Mountains .mp4'
 
 function LandPage() {
     return (
-        <div>
+        <div className="landpage">
             <section className="travel">
             <header>
                 <h2 className="logo">Nature</h2>
